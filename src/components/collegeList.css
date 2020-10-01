@@ -1,0 +1,356 @@
+
+#container{
+    width:100%;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+#heading{
+    font-family: DINPro;
+    font-size: 18.5px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.97;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--greyish-brown);
+    margin-left: 30px;
+    margin-top: 49px;
+}
+.list{
+    width: 639px;
+    height: 377px;
+    border-radius: 3.8px;
+    box-shadow: 0 0 19px 0 rgba(68, 68, 68, 0.1);
+    border: solid 0.2px var(--greyish-brown);
+    background-color: #ffffff;
+    margin-left: 30px;
+    margin-top: 40px;
+    margin-bottom: 74.7px;
+    float: left;
+}
+
+.image{
+    width: 637.3px;
+    height: 233.2px;
+    background:url('college.png') ;
+}
+.promote{
+    position: absolute;
+    height: 36px;
+    width: auto;
+    display: inline-block;
+    padding: 0 14px 0 0;
+    color: #fff;
+    line-height: 42px;
+    font-size: 15px;
+    text-align: center;
+    background: #68a7ff;
+    margin-top: -20px;
+    margin-left: 226px;
+}
+.promote:before{
+    content: '';
+    border: 18px solid #68a7ff;
+    border-left-color: transparent;
+    border-left-width: 6px;
+    position: absolute;
+    top: 0;
+    left: -23px;
+  }
+
+.rating{
+    position: absolute;
+    width: 75px;
+    height: 53px;
+    border-radius: 3.8px;
+    background-color:#f5a626;
+    margin-top: 28px;
+    margin-left: 549.3px;
+}
+
+.rating h4{
+    position: absolute;
+    font-size: 10px;
+    font-weight: bold;
+    font-weight: 100;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+    margin-top: 0;
+    margin-left: 5px;
+}
+
+.rating span{
+    font-size: 15px;
+    font-weight: bold;
+    font-weight: 200;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+}
+.tags{
+    position: absolute;
+    width: 135px;
+    height: 34px;
+    border-radius: 16.5px;
+    background-color: #ffffff;
+    margin-top: 188px;
+    margin-left: 14.3px;
+}
+.tags h5{
+    font-size: 13.5px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    margin-top: 7px;
+    color: #444444;
+}
+.tag1{
+    position: absolute;
+    width: 93px;
+    height: 34px;
+    border-radius: 16.5px;
+    background-color: #ffffff;
+    margin-left: 163.3px;
+    margin-top: 188px;
+}
+.tag1 h5{
+    font-size: 13.5px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    margin-top: 7px;
+    color: #444444;
+}
+
+
+.collegeName{
+    position: absolute;
+    width: 430px;
+    height: 17px;
+    font-size: 18.5px;
+    font-weight: 200;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.97;
+    letter-spacing: normal;
+    text-align: center;
+    color: #444444;
+    margin-top: 20px;
+    margin-left: 17px;
+}
+.collegeName h4{
+    position: absolute;
+    margin-top: 0px;
+}
+
+.nearest{
+    position: absolute;
+    width: 400px;
+    height: 16px;
+    margin-top: 46px;
+    margin-left: 17px;
+}
+.nearest h4{
+    position: absolute;
+    font-size: 13.5px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    margin-top: 0px;
+    color: #444444;
+}
+.nearest h3{
+    position: absolute;
+    font-size: 13.5px;
+    font-weight: 100;
+    font-stretch: normal;
+    font-style: normal;
+    color: #adadad;
+    margin-top: 0px;
+    margin-left: 220px;
+}
+.famous_places{
+    position: absolute;
+    width: 458px;
+    height: 15px;
+    margin-top: 76.2px;
+    margin-left: 17px;
+}
+.famous_places h3{
+    position: absolute;
+    font-size: 13.5px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    margin-top: 0;
+    color: #444444;
+}
+.famous_places span{
+    color: #37b396;
+}
+.offertext{
+    position: absolute;
+    width: 347px;
+    height: 35px;
+    background-color: #ccf5e7;
+    margin-top: 98px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.offertext h3{
+    position: absolute;
+    font-size: 13.5px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    text-align: center;
+    line-height: 10px;
+}
+.originalfees{
+    width:38px;
+    height: 15px;
+    margin-left: 540px;
+    margin-top: 19px;
+}
+.originalfees h3{
+    position: absolute;
+    font-size: 13px;
+    font-weight: 200;
+    font-stretch: normal;
+    font-style: normal;
+    text-align: center;
+    color: #444444;
+    margin-top: 0;
+}
+
+
+.tag{
+    position: absolute;
+    width:30px;
+    height: 20px;
+    margin-top: -30px;
+    margin-left: 570px;
+}
+.card-price {
+    position: absolute;
+	display: inline-block;
+  
+    width: 20px;
+    height: 19px;
+	background-color: #dd1c26;
+	border-left: 1px solid#dd1c26;
+
+	/* This makes room for the triangle */
+	margin-left: 19px;
+	
+	position: relative;
+	
+	color: white;
+	font-weight: 300;
+	font-size: 13px;
+	line-height: 19px;
+
+	padding: 0 5px 0 5px;
+}
+
+/* Makes the triangle */
+.card-price:before {
+	content: "";
+	position: absolute;
+	display: block;
+	left: -11px;
+	width: 0;
+	height: 0;
+	border-top: 9.5px solid transparent;
+	border-bottom: 9.5px solid transparent;
+	border-right: 9.5px solid #dd1c26;
+}
+
+/* Makes the circle */
+.card-price:after {
+	content: "";
+	background-color: white;
+	border-radius: 50%;
+	width: 4px;
+	height: 4px;
+	display: block;
+	position: absolute;
+	left: -2px;
+	top:8px;
+}
+.discount{
+    width: 88px;
+    height: 26px;
+    margin-left: 530px;
+    margin-top: 15px;
+}
+.discount h3{
+    position: absolute;
+    font-size: 28.5px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    color: #dd1c26;
+    margin-top: -10px;
+}
+.feescycle{
+    position: absolute;
+    width: 110px;
+    height: 10px;
+    margin-left: 506px;
+    font-size: 8px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    color: #444444;
+}
+.feescycle h3{
+    position: absolute;
+    margin-top: 0;
+}
+
+
+.amenties{
+    position: absolute;
+    width:200px;
+    height: 15px;
+    margin-left: 430px;
+    margin-top: 35px;
+}
+.amenties h3{
+    position: absolute;
+    font-size: 13.5px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 15px;
+    color: #37b396;
+}
+.ranking{
+    position: absolute;
+    width:220px;
+    height: 20px;
+    margin-top: 199px;
+    margin-left: 418px;
+}
+.ranking h3{
+    position: absolute;
+    font-size: 13.5px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    margin-top: 0px;
+}
